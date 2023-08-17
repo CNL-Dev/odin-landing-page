@@ -41,11 +41,25 @@ img {
 
 .content-2 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     padding: 16px;
     background-color: azure;
 }
+
+.image-content-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.image-content {
+    padding: 20px;
+}
+
+.image-content > img {
+    border-radius: 20px;
+} 
 
 .footer {
     background-color: coral;
