@@ -21,9 +21,14 @@ img {
     height: auto;
 }
 
+button {
+    margin: 10px;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: coral;
 }
 
@@ -40,6 +45,15 @@ img {
     padding-bottom: 20px;
 }
 
+.content-1-left {
+    padding: 10px;
+}
+
+.content-1-left > .subtitle {
+    font-size: 40px;
+    font-weight: 800;
+}
+
 .content-2 {
     display: flex;
     flex-direction: column;
@@ -51,6 +65,25 @@ img {
 .content-2 > .subtitle {
     display: flex;
     justify-content: center;
+}
+
+.content-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: chocolate;
+}
+
+.content-3-text,
+.quote {
+    font-size: 36px;
+    color: firebrick;
+    font-style: italic;
+}
+
+.quote {
+    color: darkred;
+    white-space: nowrap;
 }
 
 .image-content-container {
