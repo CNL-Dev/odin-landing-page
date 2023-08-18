@@ -23,7 +23,7 @@ img {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: coral;
 }
 
@@ -37,6 +37,7 @@ img {
     flex-direction: row;
     justify-content: space-around;
     background-color: crimson;
+    padding-bottom: 20px;
 }
 
 .content-2 {
@@ -47,10 +48,15 @@ img {
     background-color: azure;
 }
 
+.content-2 > .subtitle {
+    display: flex;
+    justify-content: center;
+}
+
 .image-content-container {
     display: flex;
     flex-direction: row;
-
+    justify-content: space-around;
 }
 
 .image-content {
@@ -69,4 +75,8 @@ img {
 .header-links {
     display: flex;
     justify-content: center;
+}
+
+.logo {
+    font-weight: 800px;
 }
