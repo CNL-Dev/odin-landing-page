@@ -81,6 +81,23 @@ button {
     font-style: italic;
 }
 
+.content-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: red;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.content-4-left {
+
+}
+
+.content-4-right {
+
+}
+
 .quote {
     color: darkred;
     white-space: nowrap;
