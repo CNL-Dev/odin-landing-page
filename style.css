@@ -106,16 +106,22 @@ button {
 .image-content-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .image-content {
     padding: 20px;
+    text-align: center;
 }
 
 .image-content > img {
     border-radius: 20px;
+    margin: auto;
 } 
+
+.image-text {
+    
+}
 
 .footer {
     background-color: coral;
